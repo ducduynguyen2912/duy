@@ -1,0 +1,7 @@
+s = input()
+u = sum(c.isupper() for c in s)
+l = sum(c.islower() for c in s)
+d = sum(c.isdigit() for c in s)
+print(f"viết hoa: {u}")
+print(f"viết thường: {l}")
+print(f"số: {d}")
